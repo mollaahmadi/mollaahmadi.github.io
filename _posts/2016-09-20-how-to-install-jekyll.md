@@ -8,6 +8,7 @@ Jekyll is a simple, blog-aware, static site generator. It takes a template direc
 
 To install jekyll version 2 and later you need to install ruby version 2 or later. So you can use this way to install that on ubuntu:
 
+```bash
 sudo apt-get -y update
 sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
 cd /tmp
@@ -17,6 +18,7 @@ cd ruby-2.0.0-p481/
 ./configure --prefix=/usr/local
 make
 sudo make install
+```
 
 [Head to the readme](http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04) to learn more.
 
