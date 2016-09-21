@@ -3,28 +3,19 @@ layout: page
 title: Esmaeil Mollaahmadi's Homepage
 ---
 
-<p class="message">
-  I'm Esmaeil Mollaahmadi. I'm working at Sharif Cert.
-</p>
+I'm Esmaeil Mollaahmadi. I'm graduated in Computer Science and my research interest is computer security.
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+## Education
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* [M.S. Computer science, sharif university of technology](https://en.wikipedia.org/wiki/Sharif_University_of_Technology)
+* [B.S. University of Isfahan](http://ui.ac.ir/)
 
 Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+## Work
 
-Some fun facts about the setup of this project include:
+I'm working at [sharif cert](https://cert.sharif.edu) from 2011:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+21 september 2016
