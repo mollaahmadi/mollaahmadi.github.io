@@ -4,7 +4,7 @@
  <title>Esmaeil Mollaahmadi</title>
  <link href="http://mollaahmadi.com/atom.xml" rel="self"/>
  <link href="http://mollaahmadi.com/"/>
- <updated>2016-09-21T15:03:14+03:30</updated>
+ <updated>2016-09-21T22:53:53+03:30</updated>
  <id>http://mollaahmadi.com</id>
  <author>
    <name>Codinfox</name>
@@ -23,15 +23,17 @@
 
 &lt;p&gt;To install jekyll version 2 and later you need to install ruby version 2 or later. So you can use this way to install that on ubuntu:&lt;/p&gt;
 
-&lt;p&gt;sudo apt-get -y update
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get -y update
 sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
-cd /tmp
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /tmp
 wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
 tar -xvzf ruby-2.0.0-p481.tar.gz
-cd ruby-2.0.0-p481/
-./configure –prefix=/usr/local
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ruby-2.0.0-p481/
+./configure --prefix&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/local
 make
-sudo make install&lt;/p&gt;
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
@@ -44,7 +46,7 @@ sudo make install&lt;/p&gt;
    <updated>2016-09-19T00:00:00+04:30</updated>
    <id>http://mollaahmadi.com/2016/09/19/start-of-blogging</id>
    <content type="html">&lt;p&gt;From today I will write some posts daily. 
-I am using github and jekyll to blogging. In futer’s posts I will explain how to install a blog in 10 minutes!&lt;/p&gt;
+I am using github and jekyll to blogging. In future’s posts I will explain how to install a blog in 10 minutes!&lt;/p&gt;
 </content>
  </entry>
  

@@ -206,6 +206,12 @@ MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], proces
               <img class="masthead-logo" src="/public/logo.png"/>
             </a>
             <small></small>
+          
+
+          
+          <a href="/blog/" title="Blog" title="Blog">
+              Blog
+            </a>
           </h3>
         </div>
       </div>
@@ -232,15 +238,17 @@ MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], proces
 
 <p>To install jekyll version 2 and later you need to install ruby version 2 or later. So you can use this way to install that on ubuntu:</p>
 
-<p>sudo apt-get -y update
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt-get -y update
 sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
-cd /tmp
+<span class="nb">cd</span> /tmp
 wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
 tar -xvzf ruby-2.0.0-p481.tar.gz
-cd ruby-2.0.0-p481/
-./configure –prefix=/usr/local
+<span class="nb">cd </span>ruby-2.0.0-p481/
+./configure --prefix<span class="o">=</span>/usr/local
 make
-sudo make install</p>
+sudo make install
+</code></pre>
+</div>
 
 <p><a href="http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04">Head to the readme</a> to learn more.</p>
 
@@ -268,7 +276,7 @@ sudo make install</p>
 
     <article>
       <p>From today I will write some posts daily. 
-I am using github and jekyll to blogging. In futer’s posts I will explain how to install a blog in 10 minutes!</p>
+I am using github and jekyll to blogging. In future’s posts I will explain how to install a blog in 10 minutes!</p>
 
     <article>
     <div class="post-more">
@@ -319,12 +327,12 @@ I am using github and jekyll to blogging. In futer’s posts I will explain how 
     <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-00000000-1', 'auto');
+ga('create', 'UA-56060184-2', 'auto');
 ga('send', 'pageview');
     </script>
     
   </body>
   
-  <script id="dsq-count-scr" src="//your_short_name.disqus.com/count.js" async></script>
+  <script id="dsq-count-scr" src="//empoly.disqus.com/count.js" async></script>
   
 </html>
