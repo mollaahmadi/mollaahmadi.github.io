@@ -1,0 +1,62 @@
+# Site Info
+title: Esmaeil Mollaahmadi
+tagline: ''
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+baseurl: ""
+url: http://mollaahmadi.com
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 4
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.1.0
+
+# About/contact
+author:
+  name: Codinfox
+  description: I'm <strong>developer and researcher</strong>.
+  gravatar: 4739fa35bb5546ebfbf69c8f28edabaa # md5 hash of your email address
+  contact:
+    linkedin:  https://www.linkedin.com/in/mollaahmadi
+    github:    https://github.com/mollaahmadi
+    # facebook:  <hide>
+    twitter:   https://twitter.com/mollaahmadi
+    #weibo:     http://weibo.com/41173780
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01sPM1hIKeDXZd0zMCdnPWrA==&c=NAefeF3kRDKV0DdQ-zifL8ozaWXU37SIA7IN6H4PLcE=
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/'
+  Github Project: 
+    - 'https://github.com/mollaahmadi'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/esmaeil-mollaahmadi.jpeg
+  caption: Welcome to my Homepage!
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+

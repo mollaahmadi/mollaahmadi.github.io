@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Esmaeil Mollaahmadi</title>
+ <link href="http://mollaahmadi.com/atom.xml" rel="self"/>
+ <link href="http://mollaahmadi.com/"/>
+ <updated>2016-09-21T14:24:40+03:30</updated>
+ <id>http://mollaahmadi.com</id>
+ <author>
+   <name>Codinfox</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>How to install jekyll?</title>
+   <link href="http://mollaahmadi.com/2016/09/20/how-to-install-jekyll/"/>
+   <updated>2016-09-20T00:00:00+04:30</updated>
+   <id>http://mollaahmadi.com/2016/09/20/how-to-install-jekyll</id>
+   <content type="html">&lt;p&gt;Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-ruby-version-2&quot;&gt;Install ruby version 2&lt;/h3&gt;
+
+&lt;p&gt;To install jekyll version 2 and later you need to install ruby version 2 or later. So you can use this way to install that on ubuntu:&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get -y update
+sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+cd /tmp
+wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
+tar -xvzf ruby-2.0.0-p481.tar.gz
+cd ruby-2.0.0-p481/
+./configure –prefix=/usr/local
+make
+sudo make install&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Start of Blogging</title>
+   <link href="http://mollaahmadi.com/2016/09/19/start-of-blogging/"/>
+   <updated>2016-09-19T00:00:00+04:30</updated>
+   <id>http://mollaahmadi.com/2016/09/19/start-of-blogging</id>
+   <content type="html">&lt;p&gt;From today I will write some posts daily. 
+I am using github and jekyll to blogging. In futer’s posts I will explain how to install a blog in 10 minutes!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
