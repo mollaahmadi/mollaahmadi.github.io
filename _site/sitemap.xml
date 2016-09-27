@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/2016/09/20/how-to-install-jekyll//</loc>
+      
+        <lastmod>2016-09-20T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/2016/09/19/start-of-blogging//</loc>
+      
+        <lastmod>2016-09-19T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+  
+    
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/about/</loc>
+      
+        <lastmod>2016-09-27T19:25:03-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/archive/</loc>
+      
+        <lastmod>2016-09-27T19:25:03-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/</loc>
+      
+        <lastmod>2016-09-27T19:25:03-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.9</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://mollaahmadi.com/tags/</loc>
+      
+        <lastmod>2016-09-27T19:25:03-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+</urlset>
