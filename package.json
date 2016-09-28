@@ -1,15 +1,15 @@
 {
-  "name": "pavdmyt.com",
+  "name": "mollaahmadi.com",
   "version": "0.1.0",
   "description": "My personal website.",
   "author": {
-    "name": "Pavel Dmytrenko",
-    "email": "mail@pavdmyt.com"
+    "name": "Esmaeil Mollaahmadi",
+    "email": "mollaahmadi@gmail.com"
   },
-  "homepage": "http://pavdmyt.com/",
+  "homepage": "http://mollaahmadi.com/",
   "bugs": {
-    "url": "https://github.com/pavdmyt/pavdmyt.github.io/issues",
-    "email": "mail@pavdmyt.com"
+    "url": "https://github.com/mollaahmadi/mollaahmadi.github.io/issues",
+    "email": "mollaahmadi@gmail.com"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

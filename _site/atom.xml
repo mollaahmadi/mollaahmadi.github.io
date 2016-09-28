@@ -4,7 +4,7 @@
   <link type="application/atom+xml" href="http://mollaahmadi.com/atom.xml" rel="self"/>
   <link href="http://mollaahmadi.com/"/>
   <id>http://mollaahmadi.com/</id>
-  <updated>2016-09-27T19:25:03Z</updated>
+  <updated>2016-09-28T09:56:52Z</updated>
   <rights type="text">Copyright © 2016 Esmaeil Mollaahmadi. All rights reserved.</rights>
   
     <entry>
@@ -14,8 +14,14 @@
       </author>
       <title type="text">How to install jekyll?</title>
       
-      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/2016/09/20/how-to-install-jekyll/"/>
-      <id>http://mollaahmadi.com/2016/09/20/how-to-install-jekyll</id>
+        <category term="jekyll"/>
+      
+        <category term="blog"/>
+      
+        <category term="ubuntu"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/install-jekyll"/>
+      <id>http://mollaahmadi.com/how-to-install-jekyll</id>
       <published>2016-09-20T00:00:00Z</published>
       <updated>2016-09-20T00:00:00Z</updated>
       <content type="html">&lt;p&gt;Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;
@@ -36,6 +42,11 @@ sudo make install
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
+&lt;p&gt;after installing requirement you can install last version of jekyll.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll -v &lt;span class=&quot;s2&quot;&gt;&quot;3.2.1&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
 </content>
@@ -48,8 +59,12 @@ sudo make install
       </author>
       <title type="text">Start of Blogging</title>
       
-      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/2016/09/19/start-of-blogging/"/>
-      <id>http://mollaahmadi.com/2016/09/19/start-of-blogging</id>
+        <category term="jekyll"/>
+      
+        <category term="blog"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/start-of-blogging"/>
+      <id>http://mollaahmadi.com/start-of-blogging</id>
       <published>2016-09-19T00:00:00Z</published>
       <updated>2016-09-19T00:00:00Z</updated>
       <content type="html">&lt;p&gt;From today I will write some posts daily. 

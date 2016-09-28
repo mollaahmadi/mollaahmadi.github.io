@@ -6,7 +6,7 @@ sitemap:
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">{{ site.title }} by Pavel Dmytrenko</title>
+  <title type="text" xml:lang="en">{{ site.title }}</title>
   <link type="application/atom+xml" href="{{ site.url }}/atom.xml" rel="self"/>
   <link href="{{ site.url }}/"/>
   <id>{{ site.url }}/</id>
