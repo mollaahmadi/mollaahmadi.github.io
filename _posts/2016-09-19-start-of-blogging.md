@@ -2,7 +2,7 @@
 layout: post
 title: Start of Blogging
 description: start of blogging
-tags: jekyll,blog
+tags: jekyll blog
 comments: true
 permalink: start-of-blogging
 sitemap:
