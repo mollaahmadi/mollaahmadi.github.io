@@ -32,5 +32,4 @@ lxc.network.link = lxcbr0
 lxc.network.flags = up
 lxc.network.hwaddr = 00:16:3e:xx:xx:xx
 ```
-[Head to the readme](http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04) to learn more.
 
