@@ -17,7 +17,7 @@ apt-get install lxc dnsmasq-base bridge-utils
 touch /etc/default/lxc
 echo 'USE_LXC_BRIDGE="true"' > /etc/default/lxc
 cp lxc-net /etc/init.d/
-chmod +x lxc-net
+chmod +x /etc/init.d/lxc-net
 systemctl enable lxc-net
 systemctl start lxc-net
 systemctl status lxc-net
