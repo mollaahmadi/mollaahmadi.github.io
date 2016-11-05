@@ -8,7 +8,7 @@ permalink: headless-selenium-testing-with-python-and-phantomjs
 sitemap:
   lastmod: 2016-11-05
 ---
-[PhantomJS](http://phantomjs.org/) is one of the best headless Webkits.
+[PhantomJS](http://phantomjs.org/) is one of the best headless Webkits. To install on ubuntu follow these instructions:
 
 * install phantomjs 
 
@@ -17,6 +17,7 @@ npm install phantomjs
 ```
 
 * install selenium
+
 ```bash
 pip install selenium
 ```
