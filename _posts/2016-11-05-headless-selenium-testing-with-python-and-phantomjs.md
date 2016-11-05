@@ -25,14 +25,26 @@ pip install selenium
 * run a sample
 
 ```python
+import platform
 from selenium import webdriver
-driver = webdriver.PhantomJS()
+from selenium.webdriver.common.keys import Keys
+
+# PhantomJS files have different extensions
+# under different operating systems
+if platform.system() == 'Windows':
+    PHANTOMJS_PATH = './phantomjs.exe'
+else:
+    PHANTOMJS_PATH = '/usr/local/bin/phantomjs'
+
+driver =webdriver.PhantomJS(PHANTOMJS_PATH)
+
 driver.set_window_size(1120, 550)
 driver.get("https://duckduckgo.com/")
 driver.find_element_by_id('search_form_input_homepage').send_keys("realpython")
 driver.find_element_by_id("search_button_homepage").click()
-print driver.current_url
+print (driver.current_url)
 driver.quit()
+~              
 
 ```
 
