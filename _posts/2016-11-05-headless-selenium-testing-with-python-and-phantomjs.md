@@ -10,7 +10,7 @@ sitemap:
 ---
 [PhantomJS](http://phantomjs.org/) is one of the best headless Webkits. To install on ubuntu follow these instructions:
 
-* install phantomjs 
+* install phantomjs (2.1.1)
 
 ```bash
 npm install phantomjs
