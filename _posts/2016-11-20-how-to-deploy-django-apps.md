@@ -16,9 +16,10 @@ Read instruction from [here](https://github.com/yyuu/pyenv-installer)
 ```bash
 apt-get install curl
 apt-get install git
+apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
 ```
 
-download installer and run it using bash:
+* download installer and run it using bash:
 
 ```bash
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
@@ -35,8 +36,6 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
-
 
 ```bash
 $ pyenv update
@@ -48,9 +47,14 @@ $ pyenv update
 pyenv doctor
 env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install -fkv 3.5.2
 ```
+
+create a virtual env
+
+```bash
 pyenv virtualenv 3.5.2 webapp
+```
 
-
+Install app's requirementa
 =============
 
 ```bash
@@ -61,7 +65,7 @@ pip install -r requirements.txt
 ```
 
 How to create uwsgi service?
-==============================
+==============
 
 ```bash
 vim /etc/systemd/system/uwsgi.service
