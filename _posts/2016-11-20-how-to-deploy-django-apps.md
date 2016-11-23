@@ -54,7 +54,7 @@ create a virtual env
 pyenv virtualenv 3.5.2 webapp
 ```
 
-Install app's requirementa
+Install app's requirements
 =============
 
 ```bash
