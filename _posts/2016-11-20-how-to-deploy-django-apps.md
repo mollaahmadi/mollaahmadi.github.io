@@ -36,14 +36,10 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-
-```bash
-$ pyenv update
-```
-
 * install python 3.5.2 using 
 
 ```bash
+pyenv update
 pyenv doctor
 env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install -fkv 3.5.2
 ```
@@ -86,3 +82,4 @@ NotifyAccess=all
 [Install]
 WantedBy=multi-user.target
 ```
+
