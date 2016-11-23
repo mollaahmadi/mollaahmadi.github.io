@@ -73,7 +73,7 @@ Description=uWSGI Emperor service
 
 [Service]
 #ExecStartPre=/usr/bin/bash -c 'mkdir -p /run/uwsgi; chown user:nginx /run/uwsgi'
-ExecStart=/home/user/.pyenv/versions/ctf/bin/uwsgi --http 0.0.0.0:8080 --wsgi-file /home/user/ctf7/portal_backend/wsgi.py --chdir /home/user/ctf7/
+ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 0.0.0.0:8080 --wsgi-file /home/user/app/my_site/wsgi.py --chdir /home/user/app/
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
