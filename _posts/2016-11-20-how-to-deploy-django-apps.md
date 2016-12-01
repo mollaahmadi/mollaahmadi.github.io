@@ -9,6 +9,28 @@ sitemap:
   lastmod: 2016-11-20
 ---
 
+Create a lxc container
+=================
+
+```bash
+lxc-create -n jessie -t debian
+```
+
+Configure network
+========
+
+```bash
+lxc-start -n jessie
+lxc-attach -n jessie
+```
+
+```bash
+adduser user
+```
+Install nginx and configure it
+=========
+aptitude install nginx
+
 How to install pyenv
 =================
 Read instruction from [here](https://github.com/yyuu/pyenv-installer)
@@ -58,6 +80,8 @@ pyenv shell webapp
 pip install --upgrade pip
 pip freeze
 pip install -r requirements.txt
+pip install uwsgi
+pip install django
 ```
 
 How to create uwsgi service?
@@ -72,8 +96,9 @@ vim /etc/systemd/system/uwsgi.service
 Description=uWSGI Emperor service
 
 [Service]
+User = user
 #ExecStartPre=/usr/bin/bash -c 'mkdir -p /run/uwsgi; chown user:nginx /run/uwsgi'
-ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 0.0.0.0:8080 --wsgi-file /home/user/webapp/portal_backend/wsgi.py --chdir /home/user/webapp/
+ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 0.0.0.0:8080 --wsgi-file /home/user/webapp/SampleProject/wsgi.py --chdir /home/user/webapp/
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
@@ -83,3 +108,7 @@ NotifyAccess=all
 WantedBy=multi-user.target
 ```
 
+```bash
+systemctl start uwsgi
+systemctl enable uwsgi
+```
