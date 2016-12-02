@@ -142,11 +142,12 @@ server {
 }
 ```
 
-Notes:
+notes:
+=======
 * your STATIC_ROOT in setting.py is:
 
 ```python
-	STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 ```
 
 Some usefull links
