@@ -56,11 +56,6 @@ vim ~/.bash_profile
 ```
 
 ```bash
-WARNING: seems you still have not added 'pyenv' to the load path.
-
-# Load pyenv automatically by adding
-# the following to ~/.bash_profile:
-
 export PATH="/home/user/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
@@ -145,6 +140,13 @@ server {
 		proxy_pass http://127.0.0.1:8080;
 	}
 }
+```
+
+Notes:
+* your STATIC_ROOT in setting.py is:
+
+```python
+	STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 ```
 
 Some usefull links
