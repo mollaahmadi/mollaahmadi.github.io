@@ -27,9 +27,7 @@ lxc-attach -n jessie
 ```bash
 adduser user
 ```
-Install nginx and configure it
-=========
-aptitude install nginx
+
 
 How to install pyenv
 =================
@@ -84,11 +82,18 @@ pip install uwsgi
 pip install django
 ```
 
+How to deploy application?
+==============
+```bash
+pyenv shell webapp
+python manage.py collectstatic
+```
+
 How to create uwsgi service?
 ==============
 
 ```bash
-vim /etc/systemd/system/uwsgi.service
+vim /etc/systemd/system/myapp.service
 ```
 
 ```bash
@@ -98,7 +103,7 @@ Description=uWSGI Emperor service
 [Service]
 User = user
 #ExecStartPre=/usr/bin/bash -c 'mkdir -p /run/uwsgi; chown user:nginx /run/uwsgi'
-ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 0.0.0.0:8080 --wsgi-file /home/user/webapp/SampleProject/wsgi.py --chdir /home/user/webapp/
+ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 127.0.0.1:8080 --wsgi-file /home/user/webapp/webapp/wsgi.py --chdir /home/user/webapp/
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
@@ -109,6 +114,28 @@ WantedBy=multi-user.target
 ```
 
 ```bash
-systemctl start uwsgi
-systemctl enable uwsgi
+systemctl start myapp
+systemctl enable myapp
 ```
+
+Install nginx and configure it
+=========
+aptitude install nginx
+
+```bash
+vim /etc/nginx/site-enabled/default
+server {
+	listen 80 default_server;
+	location /static/ {
+		expires 30d;
+		root /home/user/webapp/;
+	}
+	server_name _;
+	location /{
+		proxy_pass http://127.0.0.1:8080;
+	}
+}
+```
+Some usefull links
+==========
+https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04
