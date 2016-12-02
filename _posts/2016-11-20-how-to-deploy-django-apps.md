@@ -18,6 +18,20 @@ lxc-create -n jessie -t debian
 
 Configure network
 ========
+```bash
+lxc.include = /usr/share/lxc/config/debian.common.conf
+lxc.tty = 4
+lxc.arch = amd64
+lxc.network.type = veth
+lxc.network.link = lxcbr0
+lxc.network.flags = up
+lxc.network.hwaddr = 00:16:3e:59:4b:71
+lxc.network.ipv4 = 10.0.3.101/24
+lxc.network.ipv4.gateway = 10.0.3.1
+lxc.rootfs = /var/lib/lxc/jessie/rootfs
+lxc.rootfs.backend = dir
+lxc.utsname = jessie
+```
 
 ```bash
 lxc-start -n jessie
@@ -107,7 +121,6 @@ Description=uWSGI Emperor service
 
 [Service]
 User = user
-#ExecStartPre=/usr/bin/bash -c 'mkdir -p /run/uwsgi; chown user:nginx /run/uwsgi'
 ExecStart=/home/user/.pyenv/versions/webapp/bin/uwsgi --http 127.0.0.1:8080 --wsgi-file /home/user/webapp/webapp/wsgi.py --chdir /home/user/webapp/
 Restart=always
 KillSignal=SIGQUIT
