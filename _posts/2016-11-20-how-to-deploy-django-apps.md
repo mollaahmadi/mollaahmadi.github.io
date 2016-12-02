@@ -38,11 +38,21 @@ apt-get install curl
 apt-get install git
 apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
 ```
+* login as user and continue instructions:
+
+```bash
+su user
+```
 
 * download installer and run it using bash:
 
 ```bash
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+```
+after install pyenv you must add paths to .bash_profile 
+
+```bash
+vim ~/.bash_profile
 ```
 
 ```bash
@@ -51,7 +61,7 @@ WARNING: seems you still have not added 'pyenv' to the load path.
 # Load pyenv automatically by adding
 # the following to ~/.bash_profile:
 
-export PATH="/root/.pyenv/bin:$PATH"
+export PATH="/home/user/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
