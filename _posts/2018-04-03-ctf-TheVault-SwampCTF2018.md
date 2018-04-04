@@ -3,7 +3,7 @@ layout: post
 title: SwampCTF2018-The-Vault
 description:  A web challenge in SwampCTF2018.
 
-tags: CTF "capture the flag" SwampCTF2018 Web
+tags: CTF SwampCTF2018 Web
 comments: false
 permalink: SwampCTF2018-The-Vault
 sitemap:

@@ -1,11 +1,369 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">Mollaahmadi's blog by Pavel Dmytrenko</title>
+  <title type="text" xml:lang="en">Mollaahmadi's blog</title>
   <link type="application/atom+xml" href="http://mollaahmadi.com/atom.xml" rel="self"/>
   <link href="http://mollaahmadi.com/"/>
   <id>http://mollaahmadi.com/</id>
-  <updated>2016-09-28T09:56:52Z</updated>
-  <rights type="text">Copyright © 2016 Esmaeil Mollaahmadi. All rights reserved.</rights>
+  <updated>2018-04-04T07:40:03Z</updated>
+  <rights type="text">Copyright © 2018 Esmaeil Mollaahmadi. All rights reserved.</rights>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">SwampCTF2018-The-Vault</title>
+      
+        <category term="CTF"/>
+      
+        <category term="SwampCTF2018"/>
+      
+        <category term="Web"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/SwampCTF2018-The-Vault"/>
+      <id>http://mollaahmadi.com/ctf-TheVault-SwampCTF2018</id>
+      <published>2018-04-03T00:00:00Z</published>
+      <updated>2018-04-03T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;A web challenge in SwampCTF2018. This challenge was solved with brute force attack. &lt;a href=&quot;https://github.com/adanalvarez/CTF/blob/master/TheVault-SwampCTF2018/README.md&quot;&gt;adanalvarez&lt;/a&gt; is complete.&lt;/p&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">Steam Locomotive</title>
+      
+        <category term="linux"/>
+      
+        <category term="fun"/>
+      
+        <category term="commands"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/steam-locomotive"/>
+      <id>http://mollaahmadi.com/steam-locomotive</id>
+      <published>2016-12-02T00:00:00Z</published>
+      <updated>2016-12-02T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;You might be aware of command ls the list command and use it frequently to view the contents of a folder but because of miss-typing sometimes you would result in sl, how about getting a little fun in terminal and nocommand not fo.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-install&quot;&gt;how to install?&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;sl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">Cowsay and fortune</title>
+      
+        <category term="cowsay"/>
+      
+        <category term="fortune"/>
+      
+        <category term="motd"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/cowsay-fortune"/>
+      <id>http://mollaahmadi.com/cowsay</id>
+      <published>2016-11-29T00:00:00Z</published>
+      <updated>2016-11-29T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;First install requirements:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;fortune cowsay
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/profiles.d/motd.sh
+&lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; /usr/games/fortune | /usr/games/cowsay &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;login using ssh to your account and see a simple message like:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Wed Nov 30 18:32:05 IRST 2016
+He that is giddy thinks the world turns round.
+		&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; William Shakespeare, &lt;span class=&quot;s2&quot;&gt;&quot;The Taming of the Shrew&quot;&lt;/span&gt;
+ _______________________________________________________________________________
+&amp;lt; Green light &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;A.M. &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;new projects.  Red light &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;P.M. &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;traffic tickets. &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;-------------------------------------------------------------------------------&lt;/span&gt;
+        &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;  ^__^
+         &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\_&lt;/span&gt;______
+            &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\/\&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;----w&lt;/span&gt; |
+                &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;
+user@jessie:~&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">How to deploy django apps?</title>
+      
+        <category term="djnago"/>
+      
+        <category term="nginx"/>
+      
+        <category term="uwsgi"/>
+      
+        <category term="pyenv"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/How-to-deploy-django-applications"/>
+      <id>http://mollaahmadi.com/how-to-deploy-django-apps</id>
+      <published>2016-11-20T00:00:00Z</published>
+      <updated>2016-11-20T00:00:00Z</updated>
+      <content type="html">&lt;h1 id=&quot;create-a-lxc-container&quot;&gt;Create a lxc container&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lxc-create &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; jessie &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; debian
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;configure-network&quot;&gt;Configure network&lt;/h1&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lxc.include &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /usr/share/lxc/config/debian.common.conf
+lxc.tty &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 4
+lxc.arch &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; amd64
+lxc.network.type &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; veth
+lxc.network.link &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; lxcbr0
+lxc.network.flags &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; up
+lxc.network.hwaddr &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 00:16:3e:59:4b:71
+lxc.network.ipv4 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 10.0.3.101/24
+lxc.network.ipv4.gateway &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 10.0.3.1
+lxc.rootfs &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /var/lib/lxc/jessie/rootfs
+lxc.rootfs.backend &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir
+&lt;/span&gt;lxc.utsname &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; jessie
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lxc-start &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; jessie
+lxc-attach &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; jessie
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adduser user
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-to-install-pyenv&quot;&gt;How to install pyenv&lt;/h1&gt;
+&lt;p&gt;Read instruction from &lt;a href=&quot;https://github.com/yyuu/pyenv-installer&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl
+apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git
+apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;login as user and continue instructions:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;su user
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;download installer and run it using bash:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;after install pyenv you must add paths to .bash_profile&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/user/.pyenv/bin:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;pyenv init -&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;pyenv virtualenv-init -&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install python 3.5.2 using&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pyenv update
+pyenv doctor
+&lt;span class=&quot;nb&quot;&gt;env &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PYTHON_CONFIGURE_OPTS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;--enable-shared&quot;&lt;/span&gt; pyenv &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-fkv&lt;/span&gt; 3.5.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;create a virtual env&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pyenv virtualenv 3.5.2 webapp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;install-apps-requirements&quot;&gt;Install app’s requirements&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pyenv shell webapp
+pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; pip
+pip freeze
+pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; requirements.txt
+pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;uwsgi
+pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;django
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-to-deploy-application&quot;&gt;How to deploy application?&lt;/h1&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pyenv shell webapp
+python manage.py collectstatic
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-to-create-uwsgi-service&quot;&gt;How to create uwsgi service?&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/systemd/system/myapp.service
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Unit]
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;uWSGI Emperor service
+
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Service]
+User &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; user
+&lt;span class=&quot;nv&quot;&gt;ExecStart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/user/.pyenv/versions/webapp/bin/uwsgi &lt;span class=&quot;nt&quot;&gt;--http&lt;/span&gt; 127.0.0.1:8080 &lt;span class=&quot;nt&quot;&gt;--wsgi-file&lt;/span&gt; /home/user/webapp/webapp/wsgi.py &lt;span class=&quot;nt&quot;&gt;--chdir&lt;/span&gt; /home/user/webapp/
+&lt;span class=&quot;nv&quot;&gt;Restart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;always
+&lt;span class=&quot;nv&quot;&gt;KillSignal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;SIGQUIT
+&lt;span class=&quot;nv&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;notify
+&lt;span class=&quot;nv&quot;&gt;NotifyAccess&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;all
+
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Install]
+&lt;span class=&quot;nv&quot;&gt;WantedBy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;multi-user.target
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl start myapp
+systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;myapp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;install-nginx-and-configure-it&quot;&gt;Install nginx and configure it&lt;/h1&gt;
+&lt;p&gt;aptitude install nginx&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/nginx/site-enabled/default
+server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	listen 80 default_server&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	location /static/ &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		expires 30d&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		root /home/user/webapp/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	server_name _&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	location /&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		proxy_pass http://127.0.0.1:8080&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;notes&quot;&gt;notes:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;your STATIC_ROOT in setting.py is:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;STATIC_ROOT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;static/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;some-usefull-links&quot;&gt;Some usefull links&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-uwsgi-and-nginx-on-ubuntu-14-04&quot;&gt;Digital Ocean&lt;/a&gt;&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">Headless Selenium Testing With Python and PhantomJS</title>
+      
+        <category term="PhantomJS"/>
+      
+        <category term="Python"/>
+      
+        <category term="Selenium"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/headless-selenium-testing-with-python-and-phantomjs"/>
+      <id>http://mollaahmadi.com/headless-selenium-testing-with-python-and-phantomjs</id>
+      <published>2016-11-05T00:00:00Z</published>
+      <updated>2016-11-05T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;&lt;a href=&quot;http://phantomjs.org/&quot;&gt;PhantomJS&lt;/a&gt; is one of the best headless Webkits. To install on ubuntu follow these instructions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install phantomjs (2.1.1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;phantomjs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install selenium&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;selenium
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;run a sample&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;platform&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;selenium&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;webdriver&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;selenium.webdriver.common.keys&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Keys&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# PhantomJS files have different extensions&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# under different operating systems&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;platform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Windows'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PHANTOMJS_PATH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'./phantomjs.exe'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PHANTOMJS_PATH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/usr/local/bin/phantomjs'&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webdriver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PhantomJS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PHANTOMJS_PATH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_window_size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1120&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;550&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://duckduckgo.com/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_element_by_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'search_form_input_homepage'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;send_keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;realpython&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_element_by_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;search_button_homepage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;              
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <author>
+        <name>Esmaeil Mollaahmadi</name>
+        <email>mollaahmadi@gmail.com</email>
+      </author>
+      <title type="text">How to enable lxc network on debian jessie?</title>
+      
+        <category term="lxc"/>
+      
+        <category term="network"/>
+      
+        <category term="debian"/>
+      
+      <link rel="alternate" type="text/html" href="http://mollaahmadi.com/how-to-enable-lxc-network-on-debian-jessie"/>
+      <id>http://mollaahmadi.com/how-to-enable-lxc-network-on-debian</id>
+      <published>2016-10-09T00:00:00Z</published>
+      <updated>2016-10-09T00:00:00Z</updated>
+      <content type="html">&lt;p&gt;The LXC packages in Ubuntu ships enable LXC networking properly. This is basically done by a init script called lxc-net which setups the lxcbr0 bridge and a number of iptables rule to set up networking. In this post I describe how to use network in debian jessie.(Debian Jessie ships with an updated version of LXC 1.06 but does not set up the LXC networking by default)&lt;/p&gt;
+
+&lt;p&gt;First download the &lt;a href=&quot;http://flockport.com/download/lxc-net&quot;&gt;lxc-net&lt;/a&gt; script here and follow the instructions below.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;lxc dnsmasq-base bridge-utils
+&lt;span class=&quot;nb&quot;&gt;touch&lt;/span&gt; /etc/default/lxc
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'USE_LXC_BRIDGE=&quot;true&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /etc/default/lxc
+&lt;span class=&quot;nb&quot;&gt;cp &lt;/span&gt;lxc-net /etc/init.d/
+&lt;span class=&quot;nb&quot;&gt;chmod&lt;/span&gt; +x /etc/init.d/lxc-net
+systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;lxc-net
+systemctl start lxc-net
+systemctl status lxc-net
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To ensure containers created have the lxcbr0 bridge enabled by default add the config below to /etc/lxc/default.conf&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lxc.network.type &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; veth
+lxc.network.link &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; lxcbr0
+lxc.network.flags &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; up
+lxc.network.hwaddr &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 00:16:3e:xx:xx:xx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+    </entry>
   
     <entry>
       <author>
@@ -30,23 +388,21 @@
 
 &lt;p&gt;To install jekyll version 2 and later you need to install ruby version 2 or later. So you can use this way to install that on ubuntu:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get -y update
-sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
 &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /tmp
 wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
-tar -xvzf ruby-2.0.0-p481.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xvzf&lt;/span&gt; ruby-2.0.0-p481.tar.gz
 &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ruby-2.0.0-p481/
-./configure --prefix&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/local
+./configure &lt;span class=&quot;nt&quot;&gt;--prefix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/local
 make
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;after installing requirement you can install last version of jekyll.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll -v &lt;span class=&quot;s2&quot;&gt;&quot;3.2.1&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3.2.1&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
 </content>
