@@ -7,7 +7,7 @@ tags: Blog Github.io mollaahmadi
 comments: false
 permalink: I-Had-A-Problem-With-Github-Pages
 sitemap:
-  lastmod: 2019-03-18
+  lastmod: 2020-03-18
 ---
 
 I had the correct repository name and I still get a 404 error a solution is to push to the repository.
